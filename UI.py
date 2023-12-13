@@ -25,7 +25,7 @@ def get_img_as_base64(file):
         data = f.read()
     return base64.b64encode(data).decode()
 
-img_background = get_img_as_base64("img\Picture1.png")
+img_background = get_img_as_base64("Picture1.png")
 
 # css section
 page_bg_img = f"""
