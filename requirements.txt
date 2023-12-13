@@ -7,3 +7,4 @@ streamlit_lottie==0.0.5
 streamlit_option_menu==0.3.6
 streamlit_vertical_slider==1.0.2
 xgboost==2.0.2
+openpyxl
