@@ -1,0 +1,119 @@
+
+.title {
+    text-align: center;
+    color:#081c15;
+}
+[data-testid="stHeader"] {
+    background: rgba(0,0,0,0);
+}
+    
+[data-testid="stToolbar"] {
+    right: 3rem;
+}
+    
+[data-testid="stVerticalBlock"] {
+    background-color: rgba(0,0,0,0);
+}
+
+div.stButton {
+    text-align:center;
+    font-size:30px;
+    }
+
+div.stButton > button:first-child{
+    text-align:center;
+    border-radius: 12px;
+    height: 1.25m;
+    width: 4.25em;
+    border: none;
+    background: linear-gradient(45deg,#b7e4c7,#2d6a4f);
+    color:#FFFFFF;
+    }
+    
+div.stButton > button:hover {
+	border-style: solid;
+    border-color: linear-gradient(45deg,#b7e4c7,#2d6a4f);
+    border-width: 1px;
+	background:#FFFFFF;
+    color:#2d6a4f;
+    }
+    
+div.stButton > button:active {
+    position:relative;
+	top:3px;
+    border-radius:10px;
+    }
+
+header {
+        padding: 60px;
+        text-align: center;
+        background: #1abc9c;
+        color: white;
+        font-size: 30px;
+      }
+
+.fixed-header {
+        font-size: 13px;
+        color: rgb(57, 57, 57);
+    }
+
+    .sliders {
+        text-align: center;
+        font-weight: bold;
+    }
+
+.cn{
+    text-align: center;
+}
+
+.prediction{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #D0CECE;
+    border-radius: 10px;
+}
+
+.about{
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    vertical-align: bottom;
+    line-height: 200px;
+    color:#081c15;
+}
+
+.about-info{
+    text-align: left;
+    font-size: 15px;
+    color:#40916c;
+}
+
+.profile{
+    text-align: center;
+    font-size: 15px;
+    color:#2d6a4f;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #D0CECE;
+    border-radius: 10px;
+    width: 170px;
+    height: 170px;
+    padding: 10px 0;
+}
+
+.img{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+
+[class="css-629wbf edgvbvh10"]{
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: #a24a4a;
+    text-align: center;
+}
