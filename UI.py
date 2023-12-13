@@ -176,7 +176,7 @@ if selected == "Creators":
     col1,col2,col3,col4,col5 = st.columns(5)
     
     with col2:
-        pf1 = get_img_as_base64("img\RSN.png")
+        pf1 = get_img_as_base64("RSN.png")
         st.markdown(f"""<div class='profile'>
                     <img src='data:image/png;base64,{pf1}' class='img'>
                     <br />
@@ -193,7 +193,7 @@ if selected == "Creators":
                     </div>""",unsafe_allow_html=True)
     
     with col4:
-        pf3 = get_img_as_base64("img\Renad.jpg")
+        pf3 = get_img_as_base64("Renad.jpg")
         st.markdown(f"""<div class='profile'>
                     <img src='data:image/png;base64,{pf3}' class='img'>
                     <br />
@@ -234,7 +234,7 @@ if selected == "Creators":
     col6,col7,col8,col9,col10 = st.columns(5)
     
     with col7:
-        pf7 = get_img_as_base64("img\sruriq.jpg")
+        pf7 = get_img_as_base64("sruriq.jpg")
         st.markdown(f"""<div class='profile'>
                     <img src='data:image/png;base64,{pf7}' class='img'>
                     <br />
