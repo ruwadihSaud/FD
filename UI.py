@@ -17,7 +17,7 @@ import requests
 import json
 from xgboost import XGBClassifier
 
-st.set_page_config(page_icon ="img\logo.png",page_title="FD", layout="wide", initial_sidebar_state="auto", menu_items=None)
+st.set_page_config(page_icon ="logo.png",page_title="FD", layout="wide", initial_sidebar_state="auto", menu_items=None)
 
 @st.cache_data
 def get_img_as_base64(file):
@@ -185,8 +185,9 @@ if selected == "Creators":
                     </div>""",unsafe_allow_html=True)
     
     with col3:
+        pf4 = get_img_as_base64("Mariam.jpg")
         st.markdown(f"""<div class='profile'>
-                    <img src='https://t4.ftcdn.net/jpg/03/42/99/71/360_F_342997143_wz7x1yR7KWhmhSKF9OHwuQ2W4W7IUDvH.jpg' class='img'>
+                    <img src='data:image/png;base64,{pf4}' class='img'>
                     <br />
                     <br />
                     MARIAM AHMED
