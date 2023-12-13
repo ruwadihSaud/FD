@@ -16,7 +16,6 @@ from streamlit_lottie import st_lottie
 import requests
 import json
 from xgboost import XGBClassifier
-#import SessionState 
 
 st.set_page_config(page_icon ="img\logo.png",page_title="FD", layout="wide", initial_sidebar_state="auto", menu_items=None)
 
@@ -126,12 +125,10 @@ if selected == "Home":
         st.markdown('#')
     
         button = st.button("**prediction**")
-        my_dict = {'V4': V4,'V8': V8,'V10': V10,'V12': V12,'V13': V13,'V14': V14,'V15': V15,
-            'V17': V17,'V19': V19,'V25': V25,'Amount': Amount
-                }
+
         dicts = {"V14":V14,"V17":V17,"V8":V8,"V10":V10,"V12":V12,"V4":V4,"V15":V15,'Amount': Amount,"V19":V19,"V25":V25,"V13":V13}  
         if button:
-            #df = pd.DataFrame.from_dict([my_dict])
+            
             #load model
             some = pickle.load(open("some-model","rb"))
             df = pd.DataFrame.from_dict([dicts])
