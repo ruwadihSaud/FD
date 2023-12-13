@@ -164,7 +164,7 @@ if selected == "About":
     
     with col1:
         st.markdown('<div class="about">Credit card fraud detection:</div>',unsafe_allow_html=True)
-        st.markdown('<div class="about-info">strategies can vary depending on the credit card issuer. According to Inscribe, some of the most common practices involve using AI, machine learning and data analysis to review spending patterns and account behavior</div>',unsafe_allow_html=True)
+        st.markdown('<div class="about-info">is a set of methods and techniques designed to block fraudulent purchases, both online and in-store. This is done by ensuring that you are dealing with the right cardholder and that the purchase is legitimate.</div>',unsafe_allow_html=True)
     with col2:
         st_lottie(lottie_json,reverse=True, height=400, width=400, speed=0.5,)
 
